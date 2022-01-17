@@ -29,6 +29,9 @@ hr{
     padding: 0.5rem 1rem;
     
 }
+.no-dec{
+    text-decoration: none;
+}
 
 .link-primary{
     background-color : var(--primary-color);
@@ -40,15 +43,6 @@ hr{
     color:var(--primary-color);
     border-radius: 0.5rem;
     border: 1px solid var(--primary-color);
-}
-
-.link .link-primary .spacing{
-    margin-top:5rem;
-    padding:5rem;
-    
-}
-.link .link-secondary .spacing{
-    margin-bottom:5rem;
 }
 
 .list-non-bullet{
