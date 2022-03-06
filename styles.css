@@ -89,6 +89,10 @@ hr {
     margin: auto;
 }
 
+.round{
+    border-radius: 50%;
+}
+
 .hero .hero-heading {
     text-align: center;
     padding-top: 1rem;
