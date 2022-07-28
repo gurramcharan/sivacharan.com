@@ -1,0 +1,98 @@
+:root{
+    --primary-color: rgb(26, 21, 21);
+    --seconday-color: rgb(56, 220, 239);
+}
+
+body{
+    background-color: var(--primary-color);
+    color: var(--seconday-color);
+}
+h1{
+    text-align: center;
+    padding-bottom: 2rem;
+}
+.container{
+    width:50%;
+    margin: auto;
+    
+}
+
+label,input{
+    display: block;
+}
+label{
+    text-decoration: underline;
+    font-size: large;
+    text-align: left;
+}
+
+input{
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 0.2rem;
+    margin: 0.7rem;
+}
+
+#check-number{
+    display: block;
+    margin: auto;
+    padding: 0.5rem;
+    background: transparent;
+    color: var(--seconday-color);
+    border-color: var(--seconday-color);
+}
+
+#dis-area{
+    text-align: center;
+    padding: 00.5rem;
+    color: Green;
+    font-size: larger;
+    
+}
+
+#main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+
+.footer {
+    padding: 2rem 1rem;
+    text-align: center;
+    color: white;
+}
+
+.footer .footer-header {
+    font-weight: bold;
+    font-size: large;
+}
+
+.footer .link {
+    color: white;
+}
+
+.link {
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+
+}
+
+.container {
+    padding: 0rem 1rem;
+    position:absolute;
+    bottom: 0;
+    margin-bottom: 2rem;
+    
+}
+
+.list-non-bullet {
+    list-style: none;
+}
+
+.list-item-inline {
+    display: inline;
+    padding: 0rem 0.5rem;
+}
